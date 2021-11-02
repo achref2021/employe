@@ -47,8 +47,7 @@ public class EmployeServiceTest {
 	
 	//@Test
 	//public void testDeleteemploye() {
-		//es.deleteemploye("34");
-		
+	//	es.deleteemploye("33");
 	//}
 
 }

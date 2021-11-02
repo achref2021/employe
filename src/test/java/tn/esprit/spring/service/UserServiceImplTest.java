@@ -58,9 +58,11 @@ public class UserServiceImplTest {
 		
 		//@Test
 		//public void testDeleteUser() {
-			//us.deleteUser("44");
+	
+			//us.deleteUser("43");
 			
-	//	}
+		//}
+
 		
 		// 5 tests unitaires  
  
