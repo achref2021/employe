@@ -42,7 +42,7 @@ public class EmployeServiceTest {
 	@Test
 	public void testRetrieveemploye() {
 		Employe employeretrieved = es.retrieveEmploye("39"); 
-	    Assert.assertEquals(26L,employeretrieved.getId().longValue());
+	    Assert.assertEquals(39L,employeretrieved.getId().longValue());
 	   }
 	
 	//@Test
