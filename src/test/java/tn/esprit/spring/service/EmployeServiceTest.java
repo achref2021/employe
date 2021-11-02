@@ -45,10 +45,10 @@ public class EmployeServiceTest {
 	    Assert.assertEquals(26L,employeretrieved.getId().longValue());
 	   }
 	
-	@Test
-	public void testDeleteemploye() {
-		es.deleteemploye("33");
+	//@Test
+	//public void testDeleteemploye() {
+	//	es.deleteemploye("33");
 		
-	}
+	//}
 
 }
