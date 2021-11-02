@@ -34,14 +34,14 @@ public class EmployeServiceTest {
  
 	@Test
 	public void testModifyemploye()    {
-		Employe e = new Employe(38L ,"asma", "ismail","ismail.achref@esprit.tn" ,"12345", Role.INGENIEUR); 
+		Employe e = new Employe(39L ,"achref", "ismail","ismail.achref@esprit.tn" ,"12345", Role.INGENIEUR); 
 		Employe employeupdated = es.updateemploye(e); 
 		Assert.assertEquals(e.getNom(), employeupdated.getNom());
 	}
 
 	@Test
 	public void testRetrieveemploye() {
-		Employe employeretrieved = es.retrieveEmploye("39"); 
+		Employe employeretrieved = es.retrieveEmploye("43"); 
 	    Assert.assertEquals(39L,employeretrieved.getId().longValue());
 	   }
 	

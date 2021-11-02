@@ -45,7 +45,7 @@ public class UserServiceImplTest {
 		public void testModifyUser() throws ParseException   {
 			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 			Date d = dateFormat.parse("2015-03-23");
-			User u = new User(18L, "Mayssa122222222", "Mayssa", d, Role.INGENIEUR); 
+			User u = new User(44L, "Mayssa122222222", "Mayssa", d, Role.INGENIEUR); 
 			User userUpdated  = us.updateUser(u); 
 			Assert.assertEquals(u.getLastName(), userUpdated.getLastName());
 		}
