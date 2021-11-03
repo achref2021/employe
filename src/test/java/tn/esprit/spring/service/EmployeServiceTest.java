@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+
 import tn.esprit.spring.entities.Employe;
 import tn.esprit.spring.entities.Role;
 import tn.esprit.spring.services.IEmployeService;
@@ -22,6 +23,7 @@ public class EmployeServiceTest {
 	@Test
 	public void testRetrieveAllemploye() {
 		List<Employe> listemployes = es.retrieveAllemploye();	
+	
 	}
 	
 	
@@ -41,8 +43,8 @@ public class EmployeServiceTest {
 
 	@Test
 	public void testRetrieveemploye() {
-		Employe employeretrieved = es.retrieveEmploye("43"); 
-	    Assert.assertEquals(43L,employeretrieved.getId().longValue());
+		Employe employeretrieved = es.retrieveEmploye("51"); 
+	    Assert.assertEquals(51L,employeretrieved.getId().longValue());
 	   }
 	
 	//@Test
